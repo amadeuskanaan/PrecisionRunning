@@ -66,7 +66,7 @@ def plot_reg(x, y, title, xlabel,ylabel, color, size = 7):
     
     
 #########################
-def plt_world_map(df, title = 'Running Map'):
+def plt_world_map(df, title = None, fname=None):
     from mpl_toolkits.basemap import Basemap
     sns.set_style('white')
     # llcrnrlat,llcrnrlon,urcrnrlat,urcrnrlon
@@ -92,9 +92,13 @@ def plt_world_map(df, title = 'Running Map'):
         m.scatter(lon, lat, marker = 'o', color='r',s=200, zorder=10, latlon=True)
 
     #plt.annotate('Ouahu, Hawaii', xy=(10,10),xytext =(10,10), fon)
-    plt.title(title, fontsize=25, weight='bold')
-
     sns.despine(left=True, bottom=True)
+    if title:
+        plt.title(title, fontsize=25, weight='bold')
+    if fname:
+        plt.savefig(fname,bbox_inches='tight',dpi=300, transparent=True)
+        
+    
 
 ########################################################################################################################
 ##### Colormaps
