@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f1e1e31-326d-4142-ae04-329b917656ab" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test_present.ipynb" afterPath="$PROJECT_DIR$/analyze_presentation.ipynb" />
+    <list default="true" id="3f1e1e31-326d-4142-ae04-329b917656ab" name="Default" comment="initial commit">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test.ipynb" afterPath="$PROJECT_DIR$/test2.ipynb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/analyze.ipynb" afterPath="$PROJECT_DIR$/analyze.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/analyze_presentation.ipynb" afterPath="$PROJECT_DIR$/analyze_presentation.ipynb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -203,7 +202,49 @@
       <option name="project" value="LOCAL" />
       <updated>1520329399967</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="initial commit">
+      <created>1520329804490</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1520329804490</updated>
+    </task>
+    <task id="LOCAL-00004" summary="initial commit">
+      <created>1520330870277</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1520330870277</updated>
+    </task>
+    <task id="LOCAL-00005" summary="initial commit">
+      <created>1520332082865</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1520332082865</updated>
+    </task>
+    <task id="LOCAL-00006" summary="initial commit">
+      <created>1520332191272</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1520332191272</updated>
+    </task>
+    <task id="LOCAL-00007" summary="initial commit">
+      <created>1520332212841</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1520332212841</updated>
+    </task>
+    <task id="LOCAL-00008" summary="initial commit">
+      <created>1520332275967</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1520332275967</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -261,6 +302,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -272,6 +314,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/presentation.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analyze_presentation.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="0" />
