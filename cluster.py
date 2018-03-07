@@ -73,7 +73,7 @@ def return_cluster_dfs(df, df_z, n_clusters, features):
     for feature in features:
         if feature in ['Speed']:
             df_mu[feature] = df_L.groupby('label').mean()[feature]
-        else:
+        else:#
             df_mu[feature] = df_L.groupby('label').mean()[feature]
 
     df_mu.index = ['cluster_%s' % (i + 1) for i in range(n_clusters)]
