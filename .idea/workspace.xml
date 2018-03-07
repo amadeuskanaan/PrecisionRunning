@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f1e1e31-326d-4142-ae04-329b917656ab" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Presentation_X.ipynb" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Presentation_v0.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Presentation_v0.slides.html" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Presentation.ipynb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Presentation_X.ipynb" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Presentation_VX.ipynb" afterPath="$PROJECT_DIR$/Presentation_VX.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cluster.py" afterPath="$PROJECT_DIR$/cluster.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -452,7 +450,14 @@
       <option name="project" value="LOCAL" />
       <updated>1520379221278</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="initial commit">
+      <created>1520424166030</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1520424166030</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -540,7 +545,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/presentation.slides.html" />
-    <entry file="file://$PROJECT_DIR$/presentation.ipynb" />
+    <entry file="file://$PROJECT_DIR$/Presentation.ipynb" />
     <entry file="file://$PROJECT_DIR$/analyze_presentation.ipynb" />
     <entry file="file://$PROJECT_DIR$/test2.ipynb" />
     <entry file="file://$PROJECT_DIR$/preprocess.py">
