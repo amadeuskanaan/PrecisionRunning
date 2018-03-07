@@ -1,7 +1,12 @@
-
+'__authour__ == Kanaan'
 
 def plot_cluster_components(df, decomposition='tsne', lle_method='standard', plot='2D', n_clusters=3, n_components=3, titlex='XXX', fname =None, azim=90,elev=90):
-    
+    import numpy as np
+    from sklearn.cluster import AgglomerativeClustering, KMeans
+    from sklearn.decomposition import PCA, KernelPCA
+    from sklearn.manifold import Isomap, TSNE, LocallyLinearEmbedding, MDS, SpectralEmbedding
+    import matplotlib.pyplot as plt
+
     title = ''
     n_clusters = n_clusters
     clusterx = AgglomerativeClustering(n_clusters=n_clusters, affinity='euclidean', linkage='ward')

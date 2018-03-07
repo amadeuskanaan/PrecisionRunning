@@ -36,7 +36,6 @@ vincent.initialize_notebook()
 '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 Plotting Functions
 '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
-
 def plot_bar(df, feature, palette, title, xlabel, ylabel, labelsize=20, rot=70):
     fig, ax = plt.subplots(figsize=(20,12))
     g = sns.barplot(df.index, df[feature],palette= palette)
