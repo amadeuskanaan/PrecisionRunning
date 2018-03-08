@@ -34,11 +34,11 @@ def plot_cluster_components(df, decomposition='tsne', lle_method='standard', plo
         pca = PCA(n_components=n_components)
         data_projected = pca.fit_transform(df)
 
-    colors = ['g','r','b', 'k']
+    colors = ['g','r','b', 'm', 'k','g']
     
     if plot=='2D':
         fig = plt.figure(figsize=(10,10))
-        for i in range(n_components):
+        for i in range(n_clusters):
             ds = data_projected[np.where(clusterx.labels_==i)]
             # select only data observations with cluster label == i
             plt.xlabel('PC1',fontsize=20, weight='bold',labelpad=15)
@@ -48,23 +48,40 @@ def plot_cluster_components(df, decomposition='tsne', lle_method='standard', plo
             #if title:
             plt.title(titlex,fontsize = 20)
     
-    
-    elif plot=='3D':
+    #
+    # elif plot=='3D':
+    #     print data_projected.shape
+    #     ds1 = data_projected[np.where(clusterx.labels_==0)]
+    #     ds2 = data_projected[np.where(clusterx.labels_==1)]
+    #     ds3 = data_projected[np.where(clusterx.labels_==2)]
+    #     fig = plt.figure(figsize=(10,10))
+    #     ax = fig.add_subplot(1, 1, 1, projection='3d')
+    #     ax.set_xlabel('PC1',fontsize=20, weight='bold',labelpad=15)
+    #     ax.set_ylabel('PC2',fontsize=20, weight='bold',labelpad=15)
+    #     ax.set_zlabel('PC3',fontsize=20, weight='bold',labelpad=15)
+    #     ax.scatter(ds1[:,0],ds1[:,1],ds1[:,2], c=colors[0],  s = 200)
+    #     ax.scatter(ds2[:,0],ds2[:,1],ds2[:,2], c=colors[1],  s = 200)
+    #     ax.scatter(ds3[:,0],ds3[:,1],ds3[:,2], c=colors[2],  s = 200)
+    #
+    #     ax.view_init(elev=elev, azim=azim)
+    #     plt.title(titlex)
+
+    elif plot == '3D':
         print data_projected.shape
-        ds1 = data_projected[np.where(clusterx.labels_==0)]
-        ds2 = data_projected[np.where(clusterx.labels_==1)]
-        ds3 = data_projected[np.where(clusterx.labels_==2)]
-        fig = plt.figure(figsize=(10,10))
+
+        fig = plt.figure(figsize=(10, 10))
         ax = fig.add_subplot(1, 1, 1, projection='3d')
-        ax.set_xlabel('PC1',fontsize=20, weight='bold',labelpad=15)
+        ax.set_xlabel('PC1', fontsize=20, weight='bold', labelpad=15)
         ax.set_ylabel('PC2',fontsize=20, weight='bold',labelpad=15)
         ax.set_zlabel('PC3',fontsize=20, weight='bold',labelpad=15)
-        ax.scatter  (ds1[:,0],ds1[:,1],ds1[:,2], c=colors[0],  s = 200)
-        ax.scatter(ds2[:,0],ds2[:,1],ds2[:,2], c=colors[1],  s = 200)
-        ax.scatter(ds3[:,0],ds3[:,1],ds3[:,2], c=colors[2],  s = 200)
-        ax.view_init(elev=elev, azim=azim)   
+
+        for i in range(n_clusters):
+            ds = data_projected[np.where(clusterx.labels_ == i)]
+            ax.scatter(ds[:, 0], ds[:, 1], ds[:, 2], c=colors[i], s=200)
+
+        ax.view_init(elev=elev, azim=azim)
         plt.title(titlex)
-    
+
     plt.xticks(fontsize=15,weight='bold')
     plt.yticks(fontsize=15,weight='bold')
     

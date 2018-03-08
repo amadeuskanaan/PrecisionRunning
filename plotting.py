@@ -40,14 +40,13 @@ def plot_bar(df, feature, palette, title, xlabel, ylabel, labelsize=20, rot=70):
     fig, ax = plt.subplots(figsize=(20,12))
     g = sns.barplot(df.index, df[feature],palette= palette)
     sns.despine(top=True,right=True)
-    plt.xticks(rotation=rot, fontsize=labelsize)
-    plt.yticks(fontsize=15)
-    plt.title(title, fontsize=35, weight='bold')
-    plt.xlabel(xlabel, fontsize=25, labelpad=15, weight='bold')
-    plt.ylabel(ylabel, fontsize=25, weight='bold')
+    plt.xticks(rotation=rot, fontsize=labelsize,weight='bold')
+    plt.yticks(fontsize=15, weight='bold')
+    plt.title(title, fontsize=55, weight='bold')
+    plt.xlabel(xlabel, fontsize=35, labelpad=15, weight='bold')
+    plt.ylabel(ylabel, fontsize=35, weight='bold')
     change_width(ax, 0.98)
     return fig, ax, g
-
 
 def plot_reg(x, y, title, xlabel,ylabel, color, size = 7):
     sns.set_style('white')

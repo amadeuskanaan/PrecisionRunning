@@ -54,7 +54,7 @@ def preproc_iphone_data(df, source):
     df = df.copy(deep=True)
     
     if source is 'Nike':
-        dates = [date for date in df['Date']]
+        dates = [str(date) for date in df['Date']]
     elif source is 'Apple':
         dates = [date[0:10] for date in df['startDate']]
 
