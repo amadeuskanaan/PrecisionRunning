@@ -1,23 +1,10 @@
 '__authour__ == Kanaan'
 
-import os,sys
-import time, datetime
+import sys
+import datetime
+import pandas as pd
+import seaborn as sns
 import numpy as np
-import pandas as pd 
-import seaborn as sns 
-import matplotlib
-import matplotlib.pyplot as plt 
-import matplotlib.gridspec as gridspec
-from mpl_toolkits.mplot3d import Axes3D
-
-from sklearn import metrics
-from sklearn import preprocessing
-from sklearn.cluster import AgglomerativeClustering
-from sklearn.decomposition import PCA, KernelPCA
-from sklearn.manifold import Isomap, TSNE, LocallyLinearEmbedding, MDS, SpectralEmbedding
-import scipy.stats as ss
-import sklearn.metrics as sm
-from scipy.cluster.hierarchy import inconsistent, linkage, dendrogram
 
 sys.path.append('./')
 from utils import *
@@ -46,7 +33,7 @@ tod = {'04':'04:00-06:00', '05':'04:00-06:00', '06':'06:00-08:00', '07':'06:00-0
        '00':'22:00-04:00', '01':'22:00-04:00', '02':'22:00-04:00', '03':'22:00-04:00'}
    
     
-def preproc_iphone_data(df, source):
+def preproc_iphone_data(df, source, sleep=False):
     
     ##########################
     # define dataframe source  and get exact dates 
@@ -93,7 +80,19 @@ def preproc_iphone_data(df, source):
     for i in df.index:
         season = get_season(datetime.strptime(df.loc[i]['Day'], '%Y-%m-%d'))
         df.loc[i,'Season']= season
-    
+
+    ###########################
+    # for sleep, calculate sleep time
+    if sleep =='True':
+        for i in df.index:
+            if df.loc[i]['sourceName'] == 'Clock':
+                start = datetime.strptime(df.loc[i]['startDate'][0:-6], '%Y-%m-%d %H:%M:%S')
+                end   = datetime.strptime(df.loc[i]['endDate'][0:-6], '%Y-%m-%d %H:%M:%S')
+
+                tdelta = end-start
+                df.loc[i, 'start_to_end'] = tdelta.total_seconds() /3600.
+            else:
+                df.loc[i, 'start_to_end'] = np.nan
     return df
 
 def df_group_timefeature(df, time_feature, groupby, feature_name=None):
