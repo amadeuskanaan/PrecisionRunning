@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f1e1e31-326d-4142-ae04-329b917656ab" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FIGS/PrecisionRunning.ai" afterPath="$PROJECT_DIR$/FIGS/PrecisionRunning.ai" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testx.ipynb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PrecisionRunning.ipynb" afterPath="$PROJECT_DIR$/PrecisionRunning.ipynb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -258,13 +257,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520327406822</updated>
-    </task>
-    <task id="LOCAL-00012" summary="initial commit">
-      <created>1520333092016</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1520333092016</updated>
     </task>
     <task id="LOCAL-00013" summary="initial commit">
       <created>1520334546319</created>
@@ -602,7 +594,14 @@
       <option name="project" value="LOCAL" />
       <updated>1520885034153</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="update presentation outputs">
+      <created>1520885336804</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1520885336804</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="ToolWindowManager">
