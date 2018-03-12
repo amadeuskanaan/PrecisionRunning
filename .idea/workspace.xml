@@ -2,21 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f1e1e31-326d-4142-ae04-329b917656ab" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FIGS/PrecisionRunning.ai" afterPath="$PROJECT_DIR$/FIGS/PrecisionRunning.ai" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FIGS/corr_cumsumwalkrun_mass.png" afterPath="$PROJECT_DIR$/FIGS/corr_cumsumwalkrun_mass.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FIGS/corr_dist_cal.png" afterPath="$PROJECT_DIR$/FIGS/corr_dist_cal.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FIGS/corr_speed_cal.png" afterPath="$PROJECT_DIR$/FIGS/corr_speed_cal.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FIGS/elbow_run.png" afterPath="$PROJECT_DIR$/FIGS/elbow_run.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FIGS/elevation.png" afterPath="$PROJECT_DIR$/FIGS/elevation.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FIGS/mass.png" afterPath="$PROJECT_DIR$/FIGS/mass.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FIGS/run_dist_daily.png" afterPath="$PROJECT_DIR$/FIGS/run_dist_daily.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FIGS/run_dist_month.png" afterPath="$PROJECT_DIR$/FIGS/run_dist_month.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FIGS/run_dist_season.png" afterPath="$PROJECT_DIR$/FIGS/run_dist_season.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FIGS/run_dist_weekly.png" afterPath="$PROJECT_DIR$/FIGS/run_dist_weekly.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FIGS/run_pace.png" afterPath="$PROJECT_DIR$/FIGS/run_pace.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FIGS/run_speed.png" afterPath="$PROJECT_DIR$/FIGS/run_speed.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FIGS/PrecisionRunning_LOGO.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PrecisionRunningv2.ipynb" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FIGS/PrecisionRunning_logox.png" afterPath="$PROJECT_DIR$/FIGS/PrecisionRunning_logox.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/analyze.ipynb" afterPath="$PROJECT_DIR$/analyze.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PrecisionRunning.ipynb" afterPath="$PROJECT_DIR$/PrecisionRunning.ipynb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -269,41 +259,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520327406822</updated>
-    </task>
-    <task id="LOCAL-00003" summary="initial commit">
-      <created>1520329804490</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1520329804490</updated>
-    </task>
-    <task id="LOCAL-00004" summary="initial commit">
-      <created>1520330870277</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1520330870277</updated>
-    </task>
-    <task id="LOCAL-00005" summary="initial commit">
-      <created>1520332082865</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1520332082865</updated>
-    </task>
-    <task id="LOCAL-00006" summary="initial commit">
-      <created>1520332191272</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1520332191272</updated>
-    </task>
-    <task id="LOCAL-00007" summary="initial commit">
-      <created>1520332212841</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1520332212841</updated>
     </task>
     <task id="LOCAL-00008" summary="initial commit">
       <created>1520332275967</created>
@@ -613,7 +568,42 @@
       <option name="project" value="LOCAL" />
       <updated>1520873169206</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="update presentation outputs">
+      <created>1520883991071</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1520883991072</updated>
+    </task>
+    <task id="LOCAL-00053" summary="update presentation outputs">
+      <created>1520884100148</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1520884100148</updated>
+    </task>
+    <task id="LOCAL-00054" summary="update presentation outputs">
+      <created>1520884152243</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1520884152243</updated>
+    </task>
+    <task id="LOCAL-00055" summary="update presentation outputs">
+      <created>1520884268707</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1520884268707</updated>
+    </task>
+    <task id="LOCAL-00056" summary="update presentation outputs">
+      <created>1520884375315</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1520884375315</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -626,7 +616,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3630363" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3630363" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -968,6 +958,11 @@
           <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FIGS/PrecisionRunning_logox copy.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cluster.py">
