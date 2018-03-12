@@ -3,10 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="3f1e1e31-326d-4142-ae04-329b917656ab" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FIGS/PrecisionRunning.ai" afterPath="$PROJECT_DIR$/FIGS/PrecisionRunning.ai" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FIGS/PrecisionRunning_cluster_all.png" afterPath="$PROJECT_DIR$/FIGS/PrecisionRunning_cluster_all.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FIGS/PrecisionRunning_cluster_run.png" afterPath="$PROJECT_DIR$/FIGS/PrecisionRunning_cluster_run.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FIGS/corr_cumsumwalkrun_mass.png" afterPath="$PROJECT_DIR$/FIGS/corr_cumsumwalkrun_mass.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FIGS/corr_dist_cal.png" afterPath="$PROJECT_DIR$/FIGS/corr_dist_cal.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FIGS/corr_speed_cal.png" afterPath="$PROJECT_DIR$/FIGS/corr_speed_cal.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FIGS/elbow_run.png" afterPath="$PROJECT_DIR$/FIGS/elbow_run.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FIGS/elevation.png" afterPath="$PROJECT_DIR$/FIGS/elevation.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FIGS/mass.png" afterPath="$PROJECT_DIR$/FIGS/mass.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FIGS/run_dist_daily.png" afterPath="$PROJECT_DIR$/FIGS/run_dist_daily.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FIGS/run_dist_month.png" afterPath="$PROJECT_DIR$/FIGS/run_dist_month.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FIGS/run_dist_season.png" afterPath="$PROJECT_DIR$/FIGS/run_dist_season.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FIGS/run_dist_weekly.png" afterPath="$PROJECT_DIR$/FIGS/run_dist_weekly.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FIGS/run_pace.png" afterPath="$PROJECT_DIR$/FIGS/run_pace.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FIGS/run_speed.png" afterPath="$PROJECT_DIR$/FIGS/run_speed.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PrecisionRunning.ipynb" afterPath="$PROJECT_DIR$/PrecisionRunning.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/analyze.ipynb" afterPath="$PROJECT_DIR$/analyze.ipynb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,7 +41,7 @@
       <file leaf-file-name="plotting.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plotting.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-326">
+            <state relative-caret-position="465">
               <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
               <folding>
                 <element signature="e#25#38#0" expanded="true" />
@@ -43,7 +53,7 @@
       <file leaf-file-name="decompose.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/decompose.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
+            <state relative-caret-position="1380">
               <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
               <folding />
             </state>
@@ -53,8 +63,8 @@
       <file leaf-file-name="preprocess.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/preprocess.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="41" column="4" lean-forward="true" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
+            <state relative-caret-position="555">
+              <caret line="41" column="4" lean-forward="false" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
               <folding>
                 <element signature="e#25#35#0" expanded="true" />
               </folding>
@@ -66,7 +76,7 @@
         <entry file="file://$PROJECT_DIR$/cluster.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="167">
-              <caret line="42" column="13" lean-forward="true" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+              <caret line="42" column="13" lean-forward="false" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
               <folding>
                 <element signature="e#25#39#0" expanded="true" />
               </folding>
@@ -128,8 +138,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -144,6 +152,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -259,13 +269,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520327406822</updated>
-    </task>
-    <task id="LOCAL-00002" summary="initial commit">
-      <created>1520329399967</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1520329399967</updated>
     </task>
     <task id="LOCAL-00003" summary="initial commit">
       <created>1520329804490</created>
@@ -603,13 +606,20 @@
       <option name="project" value="LOCAL" />
       <updated>1520696299189</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="update presentation outputs">
+      <created>1520873169206</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1520873169206</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="107" width="1410" height="724" extended-state="0" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2880117" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29239765" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -643,6 +653,52 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/publish.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="15" lean-forward="false" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plotting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding>
+            <element signature="e#25#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decompose.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="41" column="4" lean-forward="false" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
+          <folding>
+            <element signature="e#25#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluster.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="42" column="13" lean-forward="false" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+          <folding>
+            <element signature="e#25#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/publish.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -883,16 +939,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
           <caret line="93" column="18" lean-forward="true" selection-start-line="93" selection-start-column="18" selection-end-line="93" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#9#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/preprocess.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="41" column="4" lean-forward="true" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
+        <state relative-caret-position="555">
+          <caret line="41" column="4" lean-forward="false" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
           <folding>
             <element signature="e#25#35#0" expanded="true" />
           </folding>
@@ -901,7 +954,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/plotting.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-326">
+        <state relative-caret-position="465">
           <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding>
             <element signature="e#25#38#0" expanded="true" />
@@ -911,7 +964,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/decompose.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
+        <state relative-caret-position="1380">
           <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
           <folding />
         </state>
@@ -920,7 +973,7 @@
     <entry file="file://$PROJECT_DIR$/cluster.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
-          <caret line="42" column="13" lean-forward="true" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+          <caret line="42" column="13" lean-forward="false" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
           <folding>
             <element signature="e#25#39#0" expanded="true" />
           </folding>
