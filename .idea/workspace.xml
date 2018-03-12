@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f1e1e31-326d-4142-ae04-329b917656ab" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/testx.ipynb" afterPath="$PROJECT_DIR$/testx2.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FIGS/PrecisionRunning_LOGO copy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FIGS/PrecisionRunning_LOGO.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FIGS/PrecisionRunning_logox2.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testx2.ipynb" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PrecisionRunning.ipynb" afterPath="$PROJECT_DIR$/PrecisionRunning.ipynb" />
     </list>
@@ -268,13 +271,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520327406822</updated>
-    </task>
-    <task id="LOCAL-00015" summary="initial commit">
-      <created>1520335479155</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1520335479155</updated>
     </task>
     <task id="LOCAL-00016" summary="initial commit">
       <created>1520335589379</created>
@@ -612,7 +608,14 @@
       <option name="project" value="LOCAL" />
       <updated>1520885493366</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="update presentation outputs">
+      <created>1520885676740</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1520885676740</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="ToolWindowManager">
