@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f1e1e31-326d-4142-ae04-329b917656ab" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FIGS/PrecisionRunning_LOGO.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PrecisionRunningv2.ipynb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FIGS/PrecisionRunning_logox.png" afterPath="$PROJECT_DIR$/FIGS/PrecisionRunning_logox.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PrecisionRunning.ipynb" afterPath="$PROJECT_DIR$/PrecisionRunning.ipynb" />
     </list>
@@ -259,13 +256,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520327406822</updated>
-    </task>
-    <task id="LOCAL-00008" summary="initial commit">
-      <created>1520332275967</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1520332275967</updated>
     </task>
     <task id="LOCAL-00009" summary="initial commit">
       <created>1520332470279</created>
@@ -603,7 +593,14 @@
       <option name="project" value="LOCAL" />
       <updated>1520884375315</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="update presentation outputs">
+      <created>1520884528647</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1520884528647</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="ToolWindowManager">
